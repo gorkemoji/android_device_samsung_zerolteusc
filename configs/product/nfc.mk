@@ -1,6 +1,6 @@
 
 PRODUCT_PACKAGES += \
-    nfc_nci.sec.universal7420
+    nfc_nci.universal7420
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
