@@ -39,3 +39,6 @@ TARGET_KERNEL_CONFIG := lineageos_zerolteusc_defconfig
 # Partitions
 # sda18: 3123200 * 1024 = 3198156800, reserved 3M
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3194880000
+
+# Radio
+BOARD_MODEM_TYPE := mdm9x35
