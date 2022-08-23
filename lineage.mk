@@ -15,7 +15,7 @@ $(call inherit-product-if-exists, vendor/nexus/product.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="zerolteusc" \
-    TARGET_DEVICE="zerolteusc"
+    TARGET_DEVICE="zerolte"
 
 PRODUCT_NAME := lineage_zerolteusc
 PRODUCT_DEVICE := zerolteusc
