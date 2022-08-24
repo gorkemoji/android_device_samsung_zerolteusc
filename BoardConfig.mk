@@ -36,6 +36,9 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerolteusc/include
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_zerolteusc_defconfig
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_sec
+
 # Partitions
 # sda18: 3123200 * 1024 = 3198156800, reserved 3M
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3194880000
