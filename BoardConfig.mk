@@ -36,6 +36,9 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerolteusc/include
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_zerolteusc_defconfig
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_sec
+
 # Radio
 BOARD_MODEM_TYPE := mdm9x35
 BOARD_PROVIDES_RILD := true
@@ -43,5 +46,3 @@ BOARD_ROOT_EXTRA_FOLDERS := firmware
 
 # Power
 TARGET_POWERHAL_VARIANT := samsung
-
-ALLOW_MISSING_DEPENDENCIES := TRUE
