@@ -15,8 +15,7 @@
 #
 
 PRODUCT_PACKAGES += \
-    atfwd \
-    libsec-ims_shim
+    libsec-ims_shim \
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \
