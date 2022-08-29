@@ -37,6 +37,7 @@
 
 #include "log.h"
 #include "property_service.h"
+#include "util.h"
 #include "vendor_init.h"
 
 #include "init_sec.h"
