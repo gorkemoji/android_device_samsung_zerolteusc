@@ -27,5 +27,6 @@ ifneq ($(filter zerolteusc,$(TARGET_DEVICE)),)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
+LOCAL_SHARED_LIBRARIES += libbase
 
 endif
