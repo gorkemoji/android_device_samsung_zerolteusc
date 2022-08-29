@@ -1,2 +1,0 @@
-allow untrusted_app sysfs_thermal:dir search;
-allow untrusted_app sysfs_thermal:{file lnk_file} r_file_perms;

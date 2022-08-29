@@ -1,6 +1,0 @@
-allow system_app {
-    atfwd_service
-    dun_service
-}:service_manager add;
-
-binder_call(system_app, fingerprintd)
